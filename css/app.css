@@ -7582,21 +7582,6 @@ td.visible-print {
   background-color: #fff;
 }
 
-#qed {
-  background-image: url('/img/QED_screenshot_2.jpg');
-}
-
-#mrgs {
-  background-image: url('/img/ArcadeRoyale3.jpg');
-}
-
-#wizrd {
-  background-image: url('/img/lazrdwizrd.jpg');
-}
-
-#smallthings {
-  background-image: url('/img/nightdrive.jpg');
-}
 
 #qed-desc,
 #wizrd-desc,
@@ -7653,6 +7638,10 @@ footer small {
   background-color: #f3f3f3;
 }
 
+.img-marginabove {
+  margin-top: 16px;
+}
+
 .img-marginbelow {
   margin-bottom: 16px;
 }
@@ -7693,7 +7682,7 @@ footer small {
 }
 
 .laurels .laurel_content:before {
-  background-image: url("/img/laurel-left.svg");
+  background-image: url("../img/laurel-left.svg");
   background-repeat: no-repeat;
   width: 68px;
   height: 104.176px;
@@ -7708,7 +7697,7 @@ footer small {
 }
 
 .laurels .laurel_content:after {
-  background-image: url("/img/laurel-right.svg");
+  background-image: url("../img/laurel-right.svg");
   background-repeat: no-repeat;
   width: 68px;
   height: 104.176px;
