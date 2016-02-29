@@ -7723,9 +7723,11 @@ footer small {
 
 @font-face {
     font-family: 'edoregular';
-    src: url('edo-webfont.woff') format('woff'),
-         url('edo-webfont.ttf') format('truetype'),
-         url('edo-webfont.svg#edoregular') format('svg');
+    src: url('../fonts/edo-webfont.eot');
+    src: url('../fonts/edo-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/edo-webfont.woff2') format('woff2'),
+         url('../fonts/edo-webfont.woff') format('woff'),
+         url('../fonts/edo-webfont.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -7735,7 +7737,8 @@ footer small {
   margin: 0;
   line-height: 0.9;
   color: #e01009;
-  font-size: 10.321em;
+  font-size: 40vm;
+  font-size: 40vmin;
   font-family: 'edoregular';
   font-weight: normal;
   letter-spacing: -0.1em;
