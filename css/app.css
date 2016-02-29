@@ -7740,3 +7740,7 @@ footer small {
   font-weight: normal;
   letter-spacing: -0.1em;
 }
+
+.text-centered {
+  text-align: center;
+}
